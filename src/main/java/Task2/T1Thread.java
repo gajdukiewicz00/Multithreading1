@@ -1,4 +1,8 @@
 package Task2;
 
-public class T1Thread {
+class T1Thread extends Thread {
+    @Override
+    public void run() {
+        System.out.println("Поток T1Thread выполняется.");
+    }
 }

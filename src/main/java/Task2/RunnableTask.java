@@ -1,4 +1,8 @@
 package Task2;
 
-public class RunnableTask {
+class RunnableTask implements Runnable {
+    @Override
+    public void run() {
+        System.out.println("Поток RunnableTask выполняется.");
+    }
 }
